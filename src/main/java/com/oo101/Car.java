@@ -6,6 +6,10 @@ public class Car extends Vehicle{
     public Car(String name, Engine engine) {
         super(name, engine);
     }
+    public Car(String name, int speed) {
+        super(name, speed);
+    }
+
 
     @Override
     public void speedUp() {

@@ -22,7 +22,8 @@ public class Driver {
         driver1.speedUp();
         Driver driver2 = new Driver(new Truck("Big Truck", new Gasoline()));
         driver2.speedUp();
-
+        Driver driver3 = new Driver(new Car("Cool Car", 12));
+        driver3.speedUp();
     }
 
 

@@ -9,6 +9,11 @@ public class Vehicle {
         this.speed = engine.getSpeed();
     }
 
+    public Vehicle(String name, int speed){
+        this.name = name;
+        this.speed = speed;
+    }
+
     public void speedUp(){
 
     }

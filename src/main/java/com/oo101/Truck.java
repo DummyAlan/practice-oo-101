@@ -7,6 +7,10 @@ public class Truck extends Vehicle{
         super(name, engine);
     }
 
+    public Truck(String name, int speed) {
+        super(name, speed);
+    }
+
     @Override
     public void speedUp() {
         super.speedUp();
