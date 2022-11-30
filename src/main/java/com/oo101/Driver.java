@@ -13,14 +13,14 @@ public class Driver {
     }
 
     public static void main(String[] args){
-        Car coolCar = new Car("Cool Car", 30);
+        Car coolCar = new Car("Cool Car", new Gasoline());
         coolCar.speedUp();
-        Truck bigTruck = new Truck("Big Truck", 10);
+        Truck bigTruck = new Truck("Big Truck", new Electric());
         bigTruck.speedUp();
 
-        Driver driver1 = new Driver(new Car("Cool Car", 30));
+        Driver driver1 = new Driver(new Car("Cool Car", new Gasoline()));
         driver1.speedUp();
-        Driver driver2 = new Driver(new Truck("Big Truck", 30));
+        Driver driver2 = new Driver(new Truck("Big Truck", new Gasoline()));
         driver2.speedUp();
 
     }
